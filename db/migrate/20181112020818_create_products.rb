@@ -1,6 +1,6 @@
-class CreateCaves < ActiveRecord::Migration[5.0]
+class CreateProducts < ActiveRecord::Migration[5.0]
   def change
-    create_table :caves do |t|
+    create_table :products do |t|
       t.string :name
       t.string :type
       t.float :price
